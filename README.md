@@ -92,7 +92,7 @@ kind: ClusterRoleBinding
 
 ## API Mapping
 
-The mapping information of deprecated or removed APIs to supported APIs is configured in the [Map.yaml](https://github.com/helm/helm-mapkubeapis/blob/master/config/Map.yaml) file. The file is a list of entries similar to the following:
+The mapping information of deprecated or removed APIs to supported APIs is configured in the [Map.yaml](/config/Map.yaml) file. The file is a list of entries similar to the following:
 
 ```yaml
  - deprecatedAPI: "apiVersion: extensions/v1beta1\nkind: Deployment"
